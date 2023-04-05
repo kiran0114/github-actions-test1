@@ -3,7 +3,8 @@ name: newdata
 on: [push]
 
 jobs:
-     runs-on: ubuntu-latest
+     run-newdata:
+          runs-on: ubuntu-latest
    steps: 
       - name: echo a string
         run: echo "Hello World" 
