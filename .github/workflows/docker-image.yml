@@ -10,7 +10,7 @@ jobs:
 
   build:lstat /home/runner/work/github-actions-test1/github-actions-test1/Dockerfile
 
-    runs-on: ubuntu-latest
+    runs-on: docker-latest
 
     steps:
     - uses: actions/checkout@v3 lstat /home/runner/work/github-actions-test1/github-actions-test1/Dockerfile
