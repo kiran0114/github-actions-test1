@@ -3,7 +3,7 @@ name: basicci
 on: [push]
 
 jobs:
-  run-basicci:
+  run-basic-ci:
    runs-on: windows-latest
    steps: 
       - name: echo a string
