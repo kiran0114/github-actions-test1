@@ -6,7 +6,7 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v3
+    - uses: actions/first-interaction@https://github.com/nodejs/docker-node/blob/bd6c00f07c5a3b311ce0e346ab69df6b9ef8d08f/16/bullseye-slim/Dockerfile
       with:
         repo-token: ${{ secrets.KIRAN_TOKEN }}
         issue-message: 'Hi thanks for creating your first issue at Amazing-Python-Scripts, hope you followed the guidelines.'
