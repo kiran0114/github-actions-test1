@@ -6,7 +6,7 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: actions/first-interaction
       with:
         repo-token: ${{ secrets.KIRAN_TOKEN }}
         issue-message: 'Hi thanks for creating your first issue at Amazing-Python-Scripts, hope you followed the guidelines.'
