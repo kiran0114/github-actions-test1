@@ -10,9 +10,8 @@ jobs:
         run: echo "Hello World" 
      stages:
        - build
-       - test
-
-     build-code-job:
+      
+      build-code-job:
         stage: build
    script:
      - echo "Check the ruby version, then build some Ruby project files:"
