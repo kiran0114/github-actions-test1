@@ -12,6 +12,6 @@ jobs:
     runs-on: docker-latest
 
     steps:
-    - uses: actions/checkout@lstat/home/runner/work/github-actions-test1/github-actions-test1/Dockerfile
+    - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
