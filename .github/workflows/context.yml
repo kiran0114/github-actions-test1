@@ -1,10 +1,10 @@
 name: Context
 on: push
 
-
-one:
-  runs-on: ubuntu-16.04
-  steps:
+jobs:
+ one:
+   runs-on: ubuntu-16.04
+   steps:
     -name: Dump Github context
      env:
       GITHUB_CONTEXT: ${{ toJson(github) }}
