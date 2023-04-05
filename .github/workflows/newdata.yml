@@ -1,18 +1,17 @@
-name: basicci
+name: newdata
 
 on: [push]
 
 jobs:
-  run-basicci:
+  run-newdata:
    runs-on: ubuntu-latest
    steps: 
       - name: echo a string
         run: echo "Hello World" 
      stages:
        - build
-      
-      build-code-job:
-        stage: build
+            build-code-job:
+            stage: build
    script:
      - echo "Check the ruby version, then build some Ruby project files:"
      - ruby -v
