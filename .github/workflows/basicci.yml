@@ -3,8 +3,8 @@ name: basicci
 on: [push]
 
 jobs:
-  run-basic-ci:
-   runs-on: windows-latest
+  run-basicci:
+   runs-on: ubuntu-latest
    steps: 
       - name: echo a string
         run: echo "Hello World" 
@@ -19,14 +19,4 @@ jobs:
      - ruby -v
      - rake
 
-   test-code-job1:
-      stage: test
-      script:
-      - echo "If the files are built successfully, test some files with one command:"
-      - rake test1
-
-test-code-job2:
-  stage: test
-  script:
-    - echo "If the files are built successfully, test other files with a different command:"
-    - rake test2
+ 
