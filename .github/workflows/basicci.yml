@@ -3,7 +3,7 @@ name: basicci
 on: [push]
 
 jobs:
-  run-github-actions:
+  run-github-basicci:
    runs-on: windows-latest
 
 stages:
