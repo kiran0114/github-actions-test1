@@ -3,7 +3,7 @@ on:
   - push
   - Branches 
 jobs:
-  run-basicci:
+  run-github-workflows-basicci:
     runs-on: windows-latest
     steps:
       - name: echo a string
