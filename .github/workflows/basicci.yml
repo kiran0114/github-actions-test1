@@ -2,8 +2,9 @@
 name: basicci
 on:
   - push
+  - Branches 
 jobs:
-  run-github-basicci:
+  run-basicci:
     runs-on: windows-latest
     steps:
       - name: echo a string
