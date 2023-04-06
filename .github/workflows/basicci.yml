@@ -1,7 +1,8 @@
 ---
 name: basicci
 on:
-  - push
+  - push [branches]
+
 jobs:
   run-github:
     runs-on: windows-latest
