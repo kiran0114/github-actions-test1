@@ -3,7 +3,7 @@ name: basicci
 on:
   - push
 jobs:
-  run-github:
+  run-github-basicci:
     runs-on: windows-latest
     steps:
       - name: echo a string
