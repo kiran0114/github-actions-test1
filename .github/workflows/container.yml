@@ -1,7 +1,7 @@
 name: Container
 on: push
 jobs:
-  node-docker:
+  node-docker-container:
     runs-on: ubuntu-latest
     container:
       image: node:13.5.0-alpine3.10
